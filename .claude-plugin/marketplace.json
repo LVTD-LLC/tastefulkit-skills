@@ -1,0 +1,16 @@
+{
+  "name": "tastefulkit",
+  "owner": {
+    "name": "LVTD, LLC"
+  },
+  "plugins": [
+    {
+      "name": "tastefulkit",
+      "source": "./integrations/claude/tastefulkit",
+      "description": "Find real design references, inspect screenshots and DESIGN.md, and adapt them to your project."
+    }
+  ],
+  "metadata": {
+    "description": "TastefulKit design-reference skill and hosted MCP integration."
+  }
+}

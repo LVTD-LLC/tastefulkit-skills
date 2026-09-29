@@ -1,0 +1,4 @@
+interface:
+  display_name: "TastefulKit"
+  short_description: "Find and adapt real design references"
+  default_prompt: "Use $tastefulkit to find design references for my project."

@@ -1,0 +1,20 @@
+{
+  "name": "tastefulkit",
+  "interface": {
+    "displayName": "TastefulKit"
+  },
+  "plugins": [
+    {
+      "name": "tastefulkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tastefulkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

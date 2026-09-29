@@ -1,0 +1,3 @@
+[mcp_servers.tastefulkit]
+url = "https://tastefulkit.com/mcp/"
+bearer_token_env_var = "TASTEFULKIT_API_KEY"

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tastefulkit": {
+      "url": "https://tastefulkit.com/mcp/",
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer ${TASTEFULKIT_API_KEY}"
+      }
+    }
+  }
+}

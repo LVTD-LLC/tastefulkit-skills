@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "tastefulkit": {
+      "url": "https://tastefulkit.com/mcp/",
+      "type": "streamable-http",
+      "headers": {
+        "Authorization": "Bearer ${TASTEFULKIT_API_KEY}"
+      }
+    }
+  }
+}

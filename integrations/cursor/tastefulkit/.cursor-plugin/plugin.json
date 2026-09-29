@@ -1,0 +1,33 @@
+{
+  "name": "tastefulkit",
+  "version": "0.1.0",
+  "description": "Find real design references, inspect screenshots and DESIGN.md, and adapt them to your project.",
+  "author": {
+    "name": "LVTD, LLC",
+    "url": "https://github.com/LVTD-LLC"
+  },
+  "homepage": "https://tastefulkit.com",
+  "repository": "https://github.com/LVTD-LLC/tastefulkit-skills",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ui",
+    "landing-pages",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "TASTEFULKIT_API_KEY": {
+        "type": "string",
+        "title": "TastefulKit API key",
+        "description": "Create a free personal key at tastefulkit.com/settings."
+      }
+    },
+    "required": [
+      "TASTEFULKIT_API_KEY"
+    ]
+  }
+}
