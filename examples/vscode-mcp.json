@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "tastefulkit-api-key",
+      "description": "TastefulKit personal API key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "tastefulkit": {
+      "url": "https://tastefulkit.com/mcp/",
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer ${input:tastefulkit-api-key}"
+      }
+    }
+  }
+}

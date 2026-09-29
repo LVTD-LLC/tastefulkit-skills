@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tastefulkit": {
+      "url": "https://tastefulkit.com/mcp/",
+      "type": "http",
+      "bearer_token_env_var": "TASTEFULKIT_API_KEY"
+    }
+  }
+}

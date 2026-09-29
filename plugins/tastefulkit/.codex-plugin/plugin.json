@@ -1,0 +1,34 @@
+{
+  "name": "tastefulkit",
+  "version": "0.1.0",
+  "description": "Find real design references, inspect screenshots and DESIGN.md, and adapt them to your project.",
+  "author": {
+    "name": "LVTD, LLC",
+    "url": "https://github.com/LVTD-LLC"
+  },
+  "homepage": "https://tastefulkit.com",
+  "repository": "https://github.com/LVTD-LLC/tastefulkit-skills",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ui",
+    "landing-pages",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "TastefulKit",
+    "shortDescription": "Build with real design references",
+    "longDescription": "Find real design references, inspect screenshots and DESIGN.md, and adapt them to your project.",
+    "developerName": "LVTD, LLC",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://tastefulkit.com",
+    "defaultPrompt": [
+      "Find three design references for my project."
+    ]
+  }
+}
